@@ -22,3 +22,48 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# added by Min
+
+project/project/
+project/target/
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+/out/
+.idea_modules/
+
+# mac
+.DS_Store
+
+# other
+.history
+.scala_dependencies
+.cache-main
+
+# bloop and metals
+.bloop
+.bsp
+
+# metals
+project/metals.sbt
+.metals
+*/bin/*
+
+
+*/src/test/resources/outputData/*
+src/test/resources/outputData/*
+
+.vscode
+/src/test/resources/core/product/*
+/scratch.sc
