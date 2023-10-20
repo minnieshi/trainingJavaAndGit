@@ -25,30 +25,6 @@ public class Ex0201{
         System.out.println("Input some words separated by space"); //or use a for loop to read them 1 by 1;
 
         String input = keyboard.nextLine();
-//        https://www.baeldung.com/string/split
-//        String[] inputArray = input.split(" ");
-//https://stackoverflow.com/questions/18838781/converting-string-array-to-an-integer-array:
-//        int[] ints = Arrays.stream(inputArray).mapToInt(Integer::parseInt).toArray();
-//or use a for loop to parse each one to int
-//see here: https://stackoverflow.com/a/18838815/4582240
-        /*
-String line = scanner.nextLine();
-String[] numberStrs = line.split(",");
-int[] numbers = new int[numberStrs.length];
-for(int i = 0;i < numberStrs.length;i++)
-{
-   // Note that this is assuming valid input
-   // If you want to check then add a try/catch
-   // and another index for the numbers if to continue adding the others (see below)
-   numbers[i] = Integer.parseInt(numberStrs[i]);
-}
-         */
-/*
-int n = ints[0];
-int m = ints[1];
-int k = ints[2];*/
-//int result = (n  m+n  k) mod k; //I do NOT understand the formular, so i could not make it happen
-
 
         Boolean result = warAndPeace(input);
         System.out.println("Output: " + result);
