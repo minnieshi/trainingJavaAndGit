@@ -61,9 +61,5 @@ project/metals.sbt
 */bin/*
 
 
-*/src/test/resources/outputData/*
-src/test/resources/outputData/*
-
 .vscode
-/src/test/resources/core/product/*
 /scratch.sc
