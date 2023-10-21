@@ -5,25 +5,9 @@ import java.util.Scanner;
 
 public class Ex0201{
     public static void main(String[] args) {
-        /*
-        Write a Java program that takes three integers as input, namely n, m, and k.
-        The program should calculate the value of (n  m + n  k) modulo k and output an integer as the result.
-        All output ends with a newline.
-        Here's an example to clarify the task:
-        Input:
-        2
-        3
-        4
-        Output:
-        2
-        Explain: (2  3+2  4) mod 4 = 2
-            */
+        
         Scanner keyboard = new Scanner(System.in);
-
-//        int n, m, k;
-
         System.out.println("Input some words separated by space"); //or use a for loop to read them 1 by 1;
-
         String input = keyboard.nextLine();
 
         Boolean result = warAndPeace(input);
