@@ -31,9 +31,12 @@ test cases:
     warAndPeace("there was never a good war or a bad peace") 1 and 1, equal
  */
 
-//        String whatever = "the colored port should be black or white or brown";
-//        The regex means that the delimiters will be anything that is not a word [\W],
-//        in groups of at least one [+]. Because [+] is greedy, it will take for instance ';' and ' ' together as one delimiter.
+/*
+The regex means that the delimiters will be anything that is not a word [\W],
+in groups of at least one [+]. 
+Because [+] is greedy, it will take 
+for instance ';' and ' ' together as one delimiter.
+*/
         String[] words = text.split("\\W+");
         String wordForWar = "war";
         String wordForPeace = "peace";
@@ -45,7 +48,7 @@ test cases:
             if (words[i].equals(wordForPeace))
                 occurrencesForPeace++;
         }
-//        System.out.println(occurrences);
+
         return (occurrencesForWar == occurrencesForPeace);
 
         /*
@@ -67,6 +70,4 @@ test cases:
         */
 
     }
-
-
 }
